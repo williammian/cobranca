@@ -26,7 +26,7 @@ public class CadastroTituloService {
 	}
 
 	public void excluir(Long codigo) {
-		titulos.deleteById(codigo);
+		titulos.delete(codigo);
 	}
 
 	public String receber(Long codigo) {
